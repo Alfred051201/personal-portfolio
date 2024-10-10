@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import e_commerce from "./e_commerce.png";
+import stock_price from "./Stock_price_img.png";
+import loan_status from "./Loan_status_img.png"
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   jobit,
   tripguide,
   e_commerce,
+  stock_price,
+  loan_status
 };

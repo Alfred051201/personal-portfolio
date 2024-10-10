@@ -23,7 +23,10 @@ import {
     jobit,
     tripguide,
     e_commerce,
+    stock_price,
+    loan_status,
     threejs,
+
   } from "../assets";
   
   export const navLinks = [
@@ -32,7 +35,7 @@ import {
       title: "About",
     },
     {
-      id: "experience",
+      id: "work",
       title: "Work",
     },
     {
@@ -239,6 +242,34 @@ import {
         },
       ],
       image: e_commerce,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Stock Price Prediction",
+      description: "A predictive system that uses past datas to build a predictive model and deploy the model as a realtime web application ",
+      tags: [
+        {
+          name: "neural network",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "streamlit",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: stock_price,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Loan Status Prediction",
+      description: "Use support vector machines to predict the successfullness of a loan application",
+      tags: [
+        {
+          name: "svm",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: loan_status,
       source_code_link: "https://github.com/",
     }
   ];

@@ -246,7 +246,7 @@ import {
     },
     {
       name: "Stock Price Prediction",
-      description: "A predictive system that uses past datas to build a predictive model and deploy the model as a realtime web application ",
+      description: "A predictive system that uses past data to build a predictive model and deploy the model as a realtime web application ",
       tags: [
         {
           name: "neural network",
